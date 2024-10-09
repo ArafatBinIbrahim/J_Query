@@ -1,0 +1,166 @@
+.section {
+    margin-bottom: 50px;
+}
+
+
+/* header strat */
+
+header {
+    padding: 10px 0px;
+    background-color: whitesmoke;
+}
+
+.logo {
+    font-weight: 800;
+    border-radius: 10px;
+    /* background-color: aquamarine; */
+    /* for text glow */
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff;
+}
+
+.menu ul li {
+    padding: 0px 20px;
+}
+
+.menu ul li a {
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover {
+    color: green;
+    text-shadow: 0px 0px 2px green;
+}
+
+
+/* header end */
+
+
+/* item strat */
+
+h1 {
+    padding: 30px 0px;
+    text-transform: uppercase;
+}
+
+.item {
+    margin-top: 20px;
+    padding: 50px;
+    min-height: 350px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.item button {
+    margin: 30px 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10,
+.box12,
+.box13,
+.box14,
+.box15,
+.box17,
+.box18,
+.box25 {
+    margin: 0 auto;
+    width: 150px;
+    height: 100px;
+    display: none;
+    background-color: rgb(247, 0, 255);
+    border-radius: 5px;
+}
+
+.box2,
+.box3,
+.box5,
+.box6,
+.box7,
+.box9,
+.box10,
+.box12,
+.box13,
+.box14,
+.box15,
+.box17,
+.box18,
+.box25 {
+    display: block;
+}
+
+.box11 p,
+.box16 p,
+.box21 p,
+.box25 p {
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.box13,
+.box14 {
+    width: 100px;
+    height: 100px;
+}
+
+.box14 {
+    border-radius: 50%;
+}
+
+.box15 {
+    padding: 3px 15px;
+    width: 300px;
+    height: 100px;
+}
+
+.box15 p {
+    text-align: start;
+}
+
+.box19 p {
+    margin: 6px 0px;
+    cursor: pointer;
+}
+
+h3 {
+    padding: 30px 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn20_2_clk,
+.btn20_clk {
+    margin: 10px 0px !important;
+}
+
+.btn20_3_clk,
+.btn20_4_clk {
+    margin: 5px 0px 35px !important;
+}
+
+.box22 p {
+    margin: 8px 0px;
+}
+
+.box25 {
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+
+
+/* item end */

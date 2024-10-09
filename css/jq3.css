@@ -1,0 +1,75 @@
+.section {
+    margin-bottom: 50px !important;
+}
+
+
+/* header start */
+
+header {
+    padding: 10px 0px;
+    background-color: rgba(250, 226, 226, 0.637);
+}
+
+body {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-weight: 800;
+    border-radius: 10px;
+    /* background-color: aquamarine; */
+    /* for text glow */
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff;
+}
+
+.menu ul li {
+    padding: 0px 20px;
+}
+
+.menu ul li a {
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover {
+    color: green;
+    text-shadow: 0px 0px 2px green;
+}
+
+
+/* header end */
+
+h1 {
+    padding: 30px 0px;
+    text-transform: uppercase;
+}
+
+.graph {
+    float: left;
+    margin-left: 10px;
+}
+
+.custom-colorize {
+    font-size: 20px;
+    position: relative;
+    width: 75px;
+    height: 75px;
+}
+
+.custom-colorize-changer {
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.item {
+    margin-top: 20px;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}

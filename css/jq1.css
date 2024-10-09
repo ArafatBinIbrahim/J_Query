@@ -1,0 +1,145 @@
+.section {
+    margin-bottom: 50px;
+}
+
+
+/* headerstart */
+
+header {
+    padding: 10px 0px;
+    background-color: whitesmoke;
+}
+
+.logo {
+    font-weight: 800;
+    border-radius: 10px;
+    /* background-color: aquamarine; */
+    /* for text glow */
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff;
+}
+
+.menu ul li {
+    padding: 0px 20px;
+}
+
+.menu ul li a {
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover {
+    color: green;
+    text-shadow: 0px 0px 2px green;
+}
+
+
+/* headerend */
+
+
+/* item start */
+
+.item_bx {
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.item {
+    margin-top: 20px;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.box {
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+    height: 370px;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+#drag,
+#draggable {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    border-radius: 10px;
+}
+
+#drag p,
+#draggable p {
+    padding-top: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+#drop {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#resizable {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#feedback {
+    font-size: 1.4em;
+}
+
+#selectable .ui-selecting {
+    background: #56fe40;
+}
+
+#selectable .ui-selected {
+    background: #F39814;
+    color: rgb(224, 178, 178);
+}
+
+#selectable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    width: 60%;
+}
+
+#selectable li {
+    margin: 5px;
+    padding: 0px;
+    font-size: 1.4em;
+}
+
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+#sortable li {
+    margin: 0 3px 3px 3px;
+    padding: 0px;
+    padding-left: 1.5em;
+    font-size: 1.4em;
+}
+
+#sortable li span {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -1.3em;
+}
+
+
+/* item end */

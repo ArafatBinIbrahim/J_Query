@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css  -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/jq1.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!--Favicon(page logo) ***must for website***-->
+    <link rel="icon" href="img/fav_icon logo.ico" type="img/x-icon">
+
+    <title>JQuery</title>
+</head>
+
+<body>
+    <!-- header start-->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+
+
+                    <!-- logo start -->
+                    <a class="navbar-brand text-danger logo" href="#">JQuery<span class="text-success"></span></a>
+                    <!-- logo end -->
+
+
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+                    <!-- menu start -->
+                    <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Basic</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="jq1.html">Move</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="jq2.html">Section</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="jq3.html">Tog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- menu end -->
+
+
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header end -->
+
+
+
+
+    <!-- item start-->
+    <section class="item_bx">
+        <div class="container">
+            <div class="row">
+
+
+                <!-- 1 item start-->
+                <div class="col-lg-6">
+                    <div class="item text-center">
+                        <h2>#1</h2>
+                        <!-- <h2 class="text-center">Drag me</h2> -->
+                        <button class="btn btn-info btn3_clk text-center">Drag me</button>
+                        <div class="box">
+                            <div id="drag" class="ui-widget-content">
+                                <p>Drag me around</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 1 item end -->
+
+
+
+                <!-- 2 item start-->
+                <div class="col-lg-6">
+                    <div class="item text-center">
+                        <h2>#2</h2>
+                        <!-- <h2 class="text-center">Drop me</h2> -->
+                        <button class="btn btn-info btn3_clk text-center">Drop Me</button>
+                        <div class="box">
+                            <div id="draggable" class="ui-widget-content">
+                                <p>Drag me to my target</p>
+                            </div>
+
+                            <div id="drop" class="ui-widget-header">
+                                <p>Drop here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 item end -->
+
+
+
+                <!-- 3 item start-->
+                <div class="col-lg-6">
+                    <div class="item text-center">
+                        <h2>#3</h2>
+                        <!-- <h2 class="text-center">Resizable</h2> -->
+                        <button class="btn btn-info btn3_clk text-center">Resizable</button>
+                        <div class="box">
+                            <div id="resizable" class="ui-widget-content">
+                                <h3 class="ui-widget-header">Resizable</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 item end -->
+
+
+
+                <!-- 4 item start-->
+                <div class="col-lg-6">
+                    <div class="item text-center">
+                        <h2>#4</h2>
+                        <!-- <h2 class="text-center">Select</h2> -->
+                        <button class="btn btn-info btn3_clk text-center">Select</button>
+                        <div class="box">
+                            <ol id="selectable">
+                                <li class="ui-widget-content">Item 1</li>
+                                <li class="ui-widget-content">Item 2</li>
+                                <li class="ui-widget-content">Item 3</li>
+                                <li class="ui-widget-content">Item 4</li>
+                                <li class="ui-widget-content">Item 5</li>
+                                <li class="ui-widget-content">Item 6</li>
+                                <li class="ui-widget-content">Item 7</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4 item end -->
+
+
+            </div>
+
+
+            <!-- 2nd row start-->
+            <div class="row justify-content-center">
+                <!-- 5 item start-->
+                <div class="col-lg-6">
+                    <div class="item text-center">
+                        <h2>#5</h2>
+                        <!-- <h2 class="text-center">sortable</h2> -->
+                        <button class="btn btn-info btn3_clk text-center">Sort</button>
+                        <div class="box">
+                            <ul id="sortable">
+                                <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+                                <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+                                <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+                                <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+                                <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+                                <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+                                <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5 item end -->
+
+            </div>
+            <!-- 2nd row end -->
+        </div>
+        </div>
+    </section>
+    <!-- item end -->
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jq1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css  -->
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!--Favicon(page logo) ***must for website***-->
+    <link rel="icon" href="img/fav_icon logo.ico" type="img/x-icon">
+
+    <title>JQuery</title>
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+
+
+                    <!-- logo start -->
+                    <a class="navbar-brand text-danger logo" href="#">JQuery<span class="text-success"></span></a>
+                    <!-- logo end -->
+
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                                             </button>
+
+
+                    <!-- menu start -->
+                    <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Basic</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="jq1.html">Move</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="jq2.html">Section</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="jq3.html">Tog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- menu end -->
+
+
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header end -->
+
+
+    <!-- Basic  start -->
+    <div class="section jq_example">
+        <div class="container">
+
+            <!-- <h1 class="text-center">jq example</h1> -->
+            <div class="row">
+
+                <!-- item 1 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#1</h2>
+                        <button class="btn btn-info btn1_clk">Show</button>
+                        <div class="box1"></div>
+                    </div>
+                </div>
+                <!-- item 1 end -->
+
+
+                <!-- item 2 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#2</h2>
+                        <button class="btn btn-info btn2_clk">Hide</button>
+                        <div class="box2"></div>
+                    </div>
+                </div>
+                <!-- item 2 end -->
+
+
+                <!-- item 3 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#3</h2>
+                        <button class="btn btn-info btn3_clk">Toggle</button>
+                        <div class="box3"></div>
+                    </div>
+                </div>
+                <!-- item 3 end -->
+
+
+                <!-- item 4 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#4</h2>
+                        <button class="btn btn-info btn4_clk">Fade in</button>
+                        <div class="box4"></div>
+                    </div>
+                </div>
+                <!-- item 4 end -->
+
+
+
+                <!-- item 5 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#5</h2>
+                        <button class="btn btn-info btn5_clk">Fade out</button>
+                        <div class="box5"></div>
+                    </div>
+                </div>
+                <!-- item 5 end -->
+
+
+
+                <!-- item 6 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#6</h2>
+                        <button class="btn btn-info btn6_clk">Fade Toggle</button>
+                        <div class="box6"></div>
+                    </div>
+                </div>
+                <!-- item 6 end -->
+
+
+
+                <!-- item 7 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#7</h2>
+                        <button class="btn btn-info btn8_clk">Slide Down</button>
+                        <div class="box8"></div>
+                    </div>
+                </div>
+                <!-- item 7 end -->
+
+
+
+                <!-- item 8 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#8</h2>
+                        <button class="btn btn-info btn7_clk">Slide Up</button>
+                        <div class="box7"></div>
+                    </div>
+                </div>
+                <!-- item 8 end -->
+
+
+
+
+                <!-- item 9 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#9</h2>
+                        <button class="btn btn-info btn9_clk">Slide Toggle</button>
+                        <div class="box9"></div>
+                    </div>
+                </div>
+                <!-- item 9 end -->
+
+
+
+                <!-- item 10 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#10</h2>
+                        <button class="btn btn-info btn10_clk">Border</button>
+                        <div class="box10"></div>
+                    </div>
+                </div>
+                <!-- item 10 end -->
+
+
+
+                <!-- item 11 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#11</h2>
+                        <button class="btn btn-info btn11_clk">Under Line</button>
+                        <div class="box11">
+                            <p class="text-dark">Kazi Arafat Bin Ibrahim</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 11 end -->
+
+
+                <!-- item 12 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#12</h2>
+                        <button class="btn btn-info btn12_clk">Change Color</button>
+                        <div class="box12"></div>
+                    </div>
+                </div>
+                <!-- item 12 end -->
+
+
+
+                <!-- item 13 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#13</h2>
+                        <button class="btn btn-info btn13_clk">Circle</button>
+                        <div class="box13"></div>
+                    </div>
+                </div>
+                <!-- item 13 end -->
+
+
+
+
+                <!-- item 14 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#14</h2>
+                        <button class="btn btn-info btn14_clk">Square</button>
+                        <div class="box14"></div>
+                    </div>
+                </div>
+                <!-- item 14 end -->
+
+
+
+                <!-- item 15 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#15</h2>
+                        <button class="btn btn-info btn15_clk">Text End</button>
+                        <div class="box15 bg-dark">
+                            <p class="mb-0 text-white">hello</p>
+                            <p class="mb-0 text-white">hello</p>
+                            <p class="mb-0 text-white">hello</p>
+                            <p class="mb-0 text-white">hello</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 15 end -->
+
+
+
+                <!-- item 16 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#16</h2>
+                        <button class="btn btn-info btn16_clk">color change</button>
+                        <div class="box16">
+                            <p>Kazi Arafat Bin Ibrahim</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 16 end -->
+
+
+
+                <!-- item 25 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#17</h2>
+                        <button class="btn btn-info btn25_clk">Dubble Click</button>
+                        <div class="box25">
+                        </div>
+                    </div>
+                </div>
+                <!-- item 25 end -->
+
+
+
+                <!-- item 18 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#18</h2>
+                        <button class="btn btn-info btn18_clk">tl-br</button>
+                        <button class="btn btn-info btn18_2_clk">tr-bl</button>
+                        <div class="box18"></div>
+                    </div>
+                </div>
+                <!-- item 18 end -->
+
+
+
+                <!-- item 19 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#19</h2>
+                        <h3 class="mb-0">slide up "P"</h3>
+                        <div class="box19">
+                            <p class="mb-0 bg-warning">1</p>
+                            <p class="mb-0 bg-warning">2</p>
+                            <p class="mb-0 bg-warning">3</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 19 end -->
+
+
+
+                <!-- item 20 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#20</h2>
+                        <button class="btn btn-info btn21_clk">Font family </button>
+                        <div class="box21">
+                            <p>Kazi Arafat Bin Ibrahim</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 20 end -->
+
+
+
+                <!-- item 21 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#21</h2>
+                        <button class="btn btn-info btn20_clk">Font size</button>
+                        <button class="btn btn-info btn20_2_clk">Font weight</button>
+                        <button class="btn btn-info btn20_3_clk">Font family</button>
+                        <button class="btn btn-info btn20_4_clk">Color</button>
+                        <div class="box20">
+                            <p>Kazi Arafat Bin Ibrahim</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 21 end -->
+
+
+                <!-- item 22 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#22</h2>
+                        <button class="btn btn-info btn22_clk">mark arafat</button>
+                        <div class="box22">
+                            <p class="mb-0">KAZI ARAFAT</p>
+                            <p class="mb-0">KAZI ARAGAF</p>
+                            <p class="mb-0">KAZI ARAFAT</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 22 end -->
+                <!-- item 23 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#23</h2>
+                        <button class="btn btn-info btn23_clk">after</button>
+                        <div class="box23">
+                            <p class="mb-0">Kazi Arafat Bin Ibrahim</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 23 end -->
+
+
+                <!-- item 24 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#24</h2>
+                        <button class="btn btn-info btn24_clk">before </button>
+                        <div class="box24">
+                            <p class="mb-0">Kazi Arafat Bin Ibrahim</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 24 end -->
+
+
+                <!-- item 25 start -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#25</h2>
+                        <button class="btn btn-info btn25_clk" id="btn">Show Alert</button>
+                    </div>
+                </div>
+                <!-- item 25 end -->
+
+
+
+                <!-- item 26 start click the button  to show/hide the element -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#26</h2>
+                        <button class="btn btn-info btn26_clk" id="btns">Show</button>
+                        <button class="btn btn-info btn26_clk" id="btnh">hide</button>
+                        <h4 id="sh1">BANGLA</h4>
+
+                    </div>
+                </div>
+                <!-- item 26 end -->
+
+
+
+
+                <!-- item 27 start show/hide/toggle the element -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#27</h2>
+                        <button class="btn btn-info btn27_clk" id="btns1">Show</button>
+                        <button class="btn btn-info btn27_clk" id="btnh1">Hide</button>
+                        <button class="btn btn-info btn27_clk" id="btnt1">Toggle</button>
+                        <h4 id="sh2">ENGLISH</h4>
+                    </div>
+                </div>
+                <!-- item 27 end -->
+
+
+
+                <!-- item 28 start Change Background Color -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#28</h2>
+                        <div id="colorBox">Arafat</div>
+                        <button class="btn btn-info btn28_clk" id="changeColor">Change Color</button>
+                    </div>
+                </div>
+                <!-- item 28 end -->
+
+
+                <!-- item 29 start Form Submission Alert -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#29</h2>
+                        <form id="alertForm">
+                            <input type="text" id="username">
+                            <button class="btn btn-info btn29_clk" type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- item 29 end -->
+
+
+
+                <!-- item 30 Display Form Data  -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#30</h2>
+                        <form id="infoForm">
+                            <input type="text" id="info" placeholder="Enter info">
+                            <button class="btn btn-info btn30_clk" type="submit">Show Info</button>
+                        </form>
+                        <div id="infoDisplay"></div>
+                    </div>
+                </div>
+                <!-- item 30 end -->
+
+
+
+
+                <!-- item 31 Reset Form Fields -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#31</h2>
+                        <form id="resetForm">
+                            <input type="text" id="nameField">
+                            <button class="btn btn-info btn31_clk" type="reset">Reset</button>
+                        </form>
+                        <button id="resetButton">Reset Fields</button>
+                    </div>
+                </div>
+                <!-- item 31 end -->
+
+
+
+                <!-- item 32 Mouse Over Event -->
+                <div class="col-lg-4 just ">
+                    <div class="item ">
+                        <h2>#32</h2>
+                        <div id="hoverBox" style="width:100px; height:100px; background-color:blue;"></div>
+                        <button class="btn btn-info btn32_clk" type="reset">Mouse Over Event</button>
+                    </div>
+                </div>
+                <!-- item 32 end -->
+
+
+
+                <!-- item 33 Double Click Event-->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#33</h2>
+                        <div id="dblClickBox">Hello!</div>
+                        <button class="btn btn-info btn33_clk" type="reset">Double Click</button>
+                    </div>
+                </div>
+                <!-- item 33 end -->
+
+
+
+
+
+                <!-- item 34  Key Press Event -->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#34</h2>
+                        <input type="text" id="keyInput">
+                        <button class="btn btn-info btn34_clk" type="reset">Key Press Event</button>
+                    </div>
+                </div>
+                <!-- item 34 end -->
+
+
+
+                <!-- item 35 Load Content with AJAX-->
+                <div class="col-lg-4">
+                    <div class="item">
+                        <h2>#35</h2>
+                        <button class="btn btn-info btn35_clk" id="loadContent">Load Content</button>
+                        <div id="contentArea"></div>
+                    </div>
+                </div>
+                <!-- item 35 end -->
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Basics end -->
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
